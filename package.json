@@ -1,0 +1,47 @@
+{
+  "name": "ecomstarter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-google-maps/api": "^2.20.6",
+    "@wix/bookings": "^1.0.634",
+    "@wix/ecom": "^1.0.1012",
+    "@wix/members": "^1.0.77",
+    "@wix/redirects": "^1.0.44",
+    "@wix/sdk": "^1.15.15",
+    "@wix/stores": "^1.0.400",
+    "framer": "^2.4.1",
+    "framer-motion": "^12.6.2",
+    "gsap": "^3.12.7",
+    "isomorphic-dompurify": "^2.9.0",
+    "js-cookie": "^3.0.5",
+    "lucide-react": "^0.484.0",
+    "motion": "^12.6.2",
+    "next": "14.2.2",
+    "react": "^18",
+    "react-confetti": "^6.1.0",
+    "react-dom": "^18",
+    "react-icons": "^5.5.0",
+    "react-swipeable": "^7.0.2",
+    "timeago.js": "^4.0.2",
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^3.0.6",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/react-swipeable": "^5.2.0",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.2",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
