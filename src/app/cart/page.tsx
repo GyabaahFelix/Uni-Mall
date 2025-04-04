@@ -82,7 +82,7 @@ const subtotal = cart.lineItems
                   <div className="flex justify-between items-center">
                     <span className="text-gray-600">Qty: {item.quantity}</span>
                     <span className="text-black font-semibold">
-                      ${item.price?.amount}
+                      GH₵{item.price?.amount}
                     </span>
                     <button
                       className="text-red-500 hover:underline"
@@ -100,7 +100,7 @@ const subtotal = cart.lineItems
           {/* Cart Summary */}
           <div className="mt-6 flex justify-between items-center border-t pt-4">
             <span className="text-lg font-semibold">Subtotal:</span>
-            <span className="text-xl font-bold">${subtotal.toFixed(2)}</span>
+            <span className="text-xl font-bold">GH₵{subtotal.toFixed(2)}</span>
           </div>
 
           {/* Cart Actions */}

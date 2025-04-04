@@ -95,10 +95,12 @@ const ProductList = async ({
                 />
               )}
             </div>
-            <div className="flex justify-between">
-              <span className="font-medium">{product.name}</span>
+            <div className="flex flex-col">
+              <span className="font-medium w-full break-words">
+                {product.name}
+              </span>
               <span className="font-semibold">
-                ${product.price?.price ?? "N/A"}
+                GH₵{product.price?.price ?? "N/A"}
               </span>
             </div>
             {product.additionalInfoSections && (

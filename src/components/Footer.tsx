@@ -10,52 +10,30 @@ const Footer = () => {
         {/* LEFT */}
         <div className="w-full md:w-1/2 lg:w-1/4 flex flex-col gap-8">
           <Link href="/">
-            <div className="text-5xl md:text-6xl font-extrabold tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-red-600 via-purple-500 to-blue-600 drop-shadow-lg">
-              UNI MALL
-            </div>
+            <Image src="/techgear-logo.png" alt="TechGear Logo" width={200} height={200} />
           </Link>
           <p>
-            P.O Box LG 25, <br />
-            University of Ghana, Legon. <br />
-            Accra, Ghana.
+            123 Digital Drive, <br />
+            Silicon Valley, CA 94043 <br />
+            United States
           </p>
-          <span className="font-semibold">excelsiortech@gmail.com</span>
-          <span className="font-semibold">+233 24 540 2719</span>
+          <span className="font-semibold">support@techgear.com</span>
+          <span className="font-semibold">+1 (800) 123-4567</span>
           <div className="mt-4 font-semibold">Follow us on</div>
           <div className="flex gap-6 mt-2">
-            <a
-              href="https://www.facebook.com/FelixBest360"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="https://www.facebook.com/TechGearOfficial" target="_blank" rel="noopener noreferrer">
               <FaFacebook className="text-blue-600 text-2xl hover:scale-110 transition-transform" />
             </a>
-            <a
-              href="https://www.instagram.com/FelixBest360"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="https://www.instagram.com/TechGearOfficial" target="_blank" rel="noopener noreferrer">
               <FaInstagram className="text-pink-600 text-2xl hover:scale-110 transition-transform" />
             </a>
-            <a
-              href="https://www.youtube.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="https://www.youtube.com/TechGear" target="_blank" rel="noopener noreferrer">
               <FaYoutube className="text-red-600 text-2xl hover:scale-110 transition-transform" />
             </a>
-            <a
-              href="https://www.linkedin.com/in/felix-best"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="https://www.linkedin.com/company/techgear" target="_blank" rel="noopener noreferrer">
               <FaLinkedin className="text-blue-700 text-2xl hover:scale-110 transition-transform" />
             </a>
-            <a
-              href="https://twitter.com/FelixBest360"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="https://twitter.com/TechGearOfficial" target="_blank" rel="noopener noreferrer">
               <FaTwitter className="text-blue-500 text-2xl hover:scale-110 transition-transform" />
             </a>
           </div>
@@ -65,31 +43,28 @@ const Footer = () => {
           <div className="flex flex-col justify-between">
             <h1 className="font-medium text-lg">COMPANY</h1>
             <div className="flex flex-col gap-6">
-              <Link href="">About Us</Link>
-              <Link href="">Careers</Link>
-              <Link href="">Affiliates</Link>
-              <Link href="">Blog</Link>
-              <Link href="">Contact Us</Link>
+              <Link href="">Affiliate Program</Link>
+              <Link href="">Contact Support</Link>
             </div>
           </div>
           <div className="flex flex-col justify-between">
             <h1 className="font-medium text-lg">SHOP</h1>
             <div className="flex flex-col gap-6">
-              <Link href="">New Arrivals</Link>
+              <Link href="">Laptops</Link>
+              <Link href="">Smartphones</Link>
+              <Link href="">TVs & Home Theater</Link>
+              <Link href="">Gaming Consoles</Link>
               <Link href="">Accessories</Link>
-              <Link href="">Men</Link>
-              <Link href="">Women</Link>
-              <Link href="">All Products</Link>
             </div>
           </div>
           <div className="flex flex-col justify-between">
-            <h1 className="font-medium text-lg">HELP</h1>
+            <h1 className="font-medium text-lg">SUPPORT</h1>
             <div className="flex flex-col gap-6">
               <Link href="">Customer Service</Link>
-              <Link href="">My Account</Link>
+              <Link href="">Warranty & Repairs</Link>
               <Link href="">Find a Store</Link>
-              <Link href="">Legal & Privacy</Link>
-              <Link href="">Gift Card</Link>
+              <Link href="">Terms & Privacy</Link>
+              <Link href="">Gift Cards</Link>
             </div>
           </div>
         </div>
@@ -97,31 +72,31 @@ const Footer = () => {
         <div className="w-full md:w-1/2 lg:w-1/4 flex flex-col gap-8">
           <h1 className="font-medium text-lg">SUBSCRIBE</h1>
           <p>
-            Be the first to get the latest news about trends, promotions, and much more!
+            Get the latest updates on new arrivals, tech trends, and exclusive deals!
           </p>
           <div className="flex">
-            <input type="text" placeholder="Email address" className="p-4 w-3/4" />
-            <button className="w-1/4 bg-lama text-white">JOIN</button>
+            <input type="text" placeholder="Enter your email" className="p-4 w-3/4" />
+            <button className="w-1/4 bg-blue-600 text-white">JOIN</button>
           </div>
           <span className="font-semibold">Secure Payments</span>
           <div className="flex justify-between">
-            <Image src="/discover.png" alt="" width={40} height={20} />
-            <Image src="/skrill.png" alt="" width={40} height={20} />
-            <Image src="/paypal.png" alt="" width={40} height={20} />
-            <Image src="/mastercard.png" alt="" width={40} height={20} />
-            <Image src="/visa.png" alt="" width={40} height={20} />
+            <Image src="/discover.png" alt="Discover" width={40} height={20} />
+            <Image src="/skrill.png" alt="Skrill" width={40} height={20} />
+            <Image src="/paypal.png" alt="PayPal" width={40} height={20} />
+            <Image src="/mastercard.png" alt="MasterCard" width={40} height={20} />
+            <Image src="/visa.png" alt="Visa" width={40} height={20} />
           </div>
         </div>
       </div>
       {/* BOTTOM */}
       <div className="flex flex-col md:flex-row items-center justify-between gap-8 mt-16">
         <div>
-          © 2025 excelsiortech.inc <br /> All rights reserved
+          © 2025 TechGear Inc. <br /> All rights reserved
         </div>
         <div className="flex flex-col gap-8 md:flex-row">
           <div>
             <span className="text-gray-500 mr-4">Language</span>
-            <span className="font-medium">Ghana | English</span>
+            <span className="font-medium">English (US)</span>
           </div>
           <div>
             <span className="text-gray-500 mr-4">Currency</span>

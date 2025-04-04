@@ -7,9 +7,10 @@ const containerStyle = {
   height: "400px",
 };
 
+// Updated coordinates: Race Course, Accra
 const center = {
-  lat: 5.6502,  // University of Ghana latitude
-  lng: -0.1969, // University of Ghana longitude
+  lat: 5.6102431932436465,
+  lng: -0.26535489508950755,
 };
 
 const GoogleMapComponent = () => {
@@ -23,3 +24,5 @@ const GoogleMapComponent = () => {
 };
 
 export default GoogleMapComponent;
+
+//  -

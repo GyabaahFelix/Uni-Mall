@@ -84,7 +84,7 @@ const CartModal = () => {
                             {item.quantity} x{" "}
                           </div>
                         )}
-                        ${item.price?.amount}
+                        GH₵{item.price?.amount}
                       </div>
                     </div>
                     {/* DESC */}
@@ -112,7 +112,7 @@ const CartModal = () => {
             <div className="flex items-center justify-between font-semibold">
               <span className="">Subtotal</span>
              
-              <span className="">${subtotal.toFixed(2)}</span>
+              <span className="">GH₵{subtotal.toFixed(2)}</span>
 
             </div>
             <p className="text-gray-500 text-sm mt-2 mb-4">
